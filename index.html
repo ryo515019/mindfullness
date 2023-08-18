@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>マインドフルネス</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <video class="video" autoplay loop muted poster="./images/pic.jpg">
+    <source src="./images/video.mp4">
+  </video>
+
+  <audio src="./images/audio-wave.wav" autoplay loop></audio>
+  <audio src="./images/audio-relax.mp3" autoplay loop></audio>
+
+  <span id="min"></span>:
+  <span id="sec"></span>
+
+  <div class="container">
+    <div class="circle"></div>
+    
+    <p id="text"></p>
+
+    <div class="pointer-container">
+      <div class="pointer"></div>
+    </div>
+
+    <div class="outer-circle"></div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
